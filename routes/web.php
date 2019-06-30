@@ -27,4 +27,5 @@ Route::post('/auth/login', 'Auth\LoginController@login');
 
 Route::get('/auth/logout', 'Auth\LoginController@logout');
 
+
 Route::resource('coupon', 'CouponController');
